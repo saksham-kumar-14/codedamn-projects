@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #218380;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem 1.2rem;
+    height: 10%;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+}
+#header-div-1{
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}#header-div-2{
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+}
+#leaderboard{
+    border: none;
+    background-color: #218380;
+}
+#leaderboard a{
+    text-decoration: none;
+    color:white;
+}#leaderboard:hover{
+    transform: scale(1.12);
+}
+#question-section-outer{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#question-section{
+    border-radius: 1.5rem;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(200,200,200);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#option-1{
+    margin-top: 1.25rem;
+}
+.option{
+    width: 100%;
+    border: none; 
+    background-color: #218380;
+    color: white;
+    margin:0.2rem;;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}.option:hover{
+    transform: scale(1.1);
+}

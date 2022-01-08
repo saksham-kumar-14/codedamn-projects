@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #218380;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem 1.2rem;
+    height: 10%;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+}
+#header-div-1{
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}#header-div-2{
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+}
+#leaderboard{
+    border: none;
+    background-color: #218380;
+}
+#leaderboard a{
+    text-decoration: none;
+    color:white;
+}#leaderboard:hover{
+    transform: scale(1.12);
+}
+#main-div-pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+#main-div{
+    border-radius: 2rem;
+    padding: 3.5rem 4rem;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(200,200,200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading{
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Heebo', sans-serif;
+}
+#btns-div{
+    margin-top: 0.75rem;
+}
+#go-back-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #218380;
+    font-size: 1rem;
+    padding:0.25rem 0.5rem;
+    border-radius: 0.4rem;
+}
+#go-back-btn-outer{
+    border: none;
+    transition: 0.4s;
+}#go-back-btn-outer:hover{transform: scale(1.1);}
+#clear-scores-btn{
+    background-color: #218380;
+    color: white;
+    border:none;
+    font-size: 1rem;
+    padding:0.25rem 0.5rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: 0.4s;
+}#clear-scores-btn:hover{transform: scale(1.1);}

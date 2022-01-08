@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#main-div{
+    border-radius: 1.75rem;
+    box-shadow: 1rem 1rem 1rem 1rem rgb(200,200,200);
+    padding: 4rem 2rem;
+}
+#result{
+    margin: 1rem 0;
+}
+#submit{
+    padding: 0.3rem;
+    background-color: #218380;
+    color: white;
+    border:none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.heading{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+}
+input{
+    width: 7rem;
+}
